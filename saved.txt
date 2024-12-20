@@ -1,0 +1,16 @@
+  605  git checkout main
+  606  git checkout main
+  607  git status
+  608  ls -altr
+  609  touch .gitignore
+  610  ls -altr
+  611  git stash
+  612  git checkout main
+  613  git stash pop
+  614  git add .gitignore
+  615  git stash pop
+  616  git commit
+  617  git status
+  618  git rm .DS_Store
+  619  git status
+  620  git commit
