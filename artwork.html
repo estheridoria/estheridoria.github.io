@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Artwork - Esther I Doria</title>
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+      <a href="index.html" class="logo d-flex align-items-center">
+        <h1 class="sitename">Esther I Doria</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="artwork.html" class="active">Artwork</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+    </div>
+  </header>
+
+   <!-- Artwork Section -->
+  <section id="nature" class="nature section">
+    <h1>Nature</h1>
+    <div class="container">
+      <!-- Accordion for Folders -->
+      <div class="accordion" id="natureAccordion">
+
+        <!-- Folder 1: Nature: Flowers -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingFlowers">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFlowers" aria-expanded="true" aria-controls="collapseFlowers">
+              Flowers
+            </button>
+          </h2>
+          <div id="collapseFlowers" class="accordion-collapse collapse" aria-labelledby="headingFlowers" data-bs-parent="#artworkAccordion">
+            <div class="accordion-body">
+              <div class="row">
+                <!-- Bluebonnet Image -->
+                <div class="col-lg-4">
+                  <img src="assets/img/bluebonnet.jpg" alt="Bluebonnet Image" class="img-fluid">
+                </div>
+                <div class="col-lg-8">
+                  <h3>Bluebonnet at Sunset</h3>
+                  <span class="d-block position">April 1, 2025</span>
+                  <p>Bluebonnet season starts in April.</p>
+                </div>
+              </div>
+              <div class="row mt-3">
+                <!-- Indian Paintbrush Image -->
+                <div class="col-lg-4">
+                  <img src="assets/img/indianPaintbrush.jpg" alt="Indian Paintbrush Image" class="img-fluid">
+                </div>
+                <div class="col-lg-8">
+                  <h3>Indian Paintbrush</h3>
+                  <span class="d-block position">March 30, 2025</span>
+                  <p>Indian Paintbrushes are very common wildflowers in Texas.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Folder 2: Nature: Scenery -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingScenery">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseScenery" aria-expanded="false" aria-controls="collapseScenery">
+              Scenery
+            </button>
+          </h2>
+          <div id="collapseScenery" class="accordion-collapse collapse" aria-labelledby="headingScenery" data-bs-parent="#artworkAccordion">
+            <div class="accordion-body">
+              <div class="row">
+                <!-- Mountains Image -->
+                <div class="col-lg-4">
+                  <img src="assets/img/mountains.jpg" alt="Mountains Image" class="img-fluid">
+                </div>
+                <div class="col-lg-8">
+                  <h3>Mountains</h3>
+                  <span class="d-block position">April 3, 2025</span>
+                  <p>Adapted from an artwork on the wall of a Floridian Starbucks.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- Folder 4: Nature: Water (empty folder) -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingWater">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWater" aria-expanded="false" aria-controls="collapseWater">
+              Water
+            </button>
+          </h2>
+          <div id="collapseWater" class="accordion-collapse collapse" aria-labelledby="headingWater" data-bs-parent="#artworkAccordion">
+            <div class="accordion-body">
+              <p>This folder is currently empty. Check back later for more artwork.</p>
+            </div>
+          </div>
+        </div>
+        
+                <!-- Folder 3: Nature: Odd -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOdd">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOdd" aria-expanded="false" aria-controls="collapseOdd">
+              Odd
+            </button>
+          </h2>
+          <div id="collapseOdd" class="accordion-collapse collapse" aria-labelledby="headingOdd" data-bs-parent="#artworkAccordion">
+            <div class="accordion-body">
+              <div class="row">
+                <!-- Windy Day Image -->
+                <div class="col-lg-4">
+                  <img src="assets/img/random.jpg" alt="Windy Day Image" class="img-fluid">
+                </div>
+                <div class="col-lg-8">
+                  <h3>Windy Day</h3>
+                  <span class="d-block position">April 2, 2025</span>
+                  <p>Floating pieces of nature taken in by the wind.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section><!-- /Artwork Section -->
+  
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+</html>
